@@ -48,8 +48,8 @@ function operacionesBasicas(a, b) {
  * @returns {number} - Área del rectángulo
  */
 function areaRectangulo(base, altura) {
-  // TODO: Calcula y retorna el Ã¡rea (base * altura)
-  return 0;
+  // TODO: Calcula y retorna el Área (base * altura)
+  return base * altura;
 }
 
 /**
