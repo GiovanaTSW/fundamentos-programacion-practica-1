@@ -14,17 +14,19 @@
 function miInformacion() {
   // TODO: Declara las variables nombre, edad y carrera
   // Ejemplo: const nombre = "Juan";
+
+  //Comentario de prueba
   
-  const nombre = "";
-  const edad = 0;
-  const carrera = "";
+  const nombre = "Giovana Ruby Díaz Anduze";
+  const edad = 18;
+  const carrera = "Desarrollo de Software y Negocios Digitales";
   
   return { nombre, edad, carrera };
 }
 
 /**
  * Ejercicio 1.2: Operaciones aritmÃ©ticas bÃ¡sicas (3 puntos)
- * @param {number} a - Primer nÃºmero
+ * @param {number} a - Primer número
  * @param {number} b - Segundo nÃºmero
  * @returns {Object} - Objeto con suma, resta, multiplicaciÃ³n y divisiÃ³n
  */
