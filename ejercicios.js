@@ -25,27 +25,27 @@ function miInformacion() {
 }
 
 /**
- * Ejercicio 1.2: Operaciones aritmÃ©ticas bÃ¡sicas (3 puntos)
+ * Ejercicio 1.2: Operaciones aritméticas básicas (3 puntos)
  * @param {number} a - Primer número
- * @param {number} b - Segundo nÃºmero
- * @returns {Object} - Objeto con suma, resta, multiplicaciÃ³n y divisiÃ³n
+ * @param {number} b - Segundo número
+ * @returns {Object} - Objeto con suma, resta, multiplicación y división
  */
 function operacionesBasicas(a, b) {
-  // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
+  // TODO: Calcula suma, resta, multiplicación y división de a y b
   
-  const suma = 0;
-  const resta = 0;
-  const multiplicacion = 0;
-  const division = 0;
+  const suma = a+b;
+  const resta = a-b;
+  const multiplicacion = a*b;
+  const division = a/b;
   
   return { suma, resta, multiplicacion, division };
 }
 
 /**
- * Ejercicio 1.3: Ãrea de un rectÃ¡ngulo (2 puntos)
- * @param {number} base - Base del rectÃ¡ngulo
- * @param {number} altura - Altura del rectÃ¡ngulo
- * @returns {number} - Ãrea del rectÃ¡ngulo
+ * Ejercicio 1.3: Área de un rectángulo (2 puntos)
+ * @param {number} base - Base del rectángulo
+ * @param {number} altura - Altura del rectángulo
+ * @returns {number} - Área del rectángulo
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
