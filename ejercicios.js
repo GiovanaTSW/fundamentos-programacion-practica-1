@@ -61,7 +61,7 @@ function areaRectangulo(base, altura) {
  */
 function celsiusAFahrenheit(celsius) {
   // TODO: Implementa la conversión
-  return F = celsius * 9/5 + 32;
+  return celsius * 9/5 + 32;
 }
 
 // ============================================
