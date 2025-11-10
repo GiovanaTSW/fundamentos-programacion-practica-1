@@ -38,7 +38,7 @@ function operacionesBasicas(a, b) {
   const multiplicacion = a*b;
   const division = a/b;
   
-  return {};
+  return {suma, resta, multiplicacion, division};
 }
 
 /**
