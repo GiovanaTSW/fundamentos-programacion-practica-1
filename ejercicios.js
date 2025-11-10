@@ -1,4 +1,4 @@
-// FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
+// FUNDAMENTOS DE PROGRAMACIÓN - PRÁCTICA
 // Nombre del estudiante: Giovana Ruby Díaz Anduze
 // Fecha: martes 11 de noviembre de 2025
 
@@ -8,7 +8,7 @@
 
 /**
  * Ejercicio 1.1: Declarar variables (2 puntos)
- * Crea tres variables con tu informaciÃ³n personal
+ * Crea tres variables con tu información personal
  * @returns {Object} - Objeto con nombre, edad y carrera
  */
 function miInformacion() {
@@ -17,11 +17,11 @@ function miInformacion() {
 
   //Comentario de prueba
   
-  const nombre = "";
-  const edad = 0;
-  const carrera = "";
+  const nombre = "Giovana Ruby Díaz Anduze";
+  const edad = 18;
+  const carrera = "Desarrollo de Software y Negocios Digitales";
   
-  return { nombre, edad, carrera };
+  return {nombre, edad, carrera};
 }
 
 /**
