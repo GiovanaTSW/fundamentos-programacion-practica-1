@@ -1,9 +1,9 @@
 // FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
-// Nombre del estudiante: _________________
-// Fecha: _________________
+// Nombre del estudiante: Giovana Ruby Díaz Anduze
+// Fecha: martes 11 de noviembre de 2025
 
 // ============================================
-// SECCIÃ“N 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
+// SECCIÓN 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
 // ============================================
 
 /**
@@ -17,9 +17,9 @@ function miInformacion() {
 
   //Comentario de prueba
   
-  const nombre = "Giovana Ruby Díaz Anduze";
-  const edad = 18;
-  const carrera = "Desarrollo de Software y Negocios Digitales";
+  const nombre = "";
+  const edad = 0;
+  const carrera = "";
   
   return { nombre, edad, carrera };
 }
@@ -38,7 +38,7 @@ function operacionesBasicas(a, b) {
   const multiplicacion = a*b;
   const division = a/b;
   
-  return { suma, resta, multiplicacion, division };
+  return {};
 }
 
 /**
@@ -49,7 +49,7 @@ function operacionesBasicas(a, b) {
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Área (base * altura)
-  return base * altura;
+  return ;
 }
 
 /**
@@ -61,7 +61,7 @@ function areaRectangulo(base, altura) {
  */
 function celsiusAFahrenheit(celsius) {
   // TODO: Implementa la conversión
-  return F = celsius * 9/5 + 32;
+  return ;
 }
 
 // ============================================
@@ -76,12 +76,7 @@ function celsiusAFahrenheit(celsius) {
 function parOImpar(numero) {
   // TODO: Usa el operador % (módulo) para determinar si es par o impar
   // Pista: Un número es par si numero % 2 === 0
-  if (numero % 2 === 0) {
-    return "par";
-  } else {
-    return "impar";
-  }
-}
+} return ;
 
 /**
  * Ejercicio 2.2: Calificación (4 puntos)
@@ -90,11 +85,7 @@ function parOImpar(numero) {
  */
 function evaluarNota(nota) {
   // TODO: Implementa la lógica con if/else
-  if (nota >= 60) {
-    return "Aprobado";
-  } else {
-    return "Reprobado";
-  }
+
 }
 
 /**
@@ -106,13 +97,7 @@ function evaluarNota(nota) {
  */
 function mayorDeTres(a, b, c) {
   // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-  if(a>= b && a>=c){
-    return a;
-  } else if (b>= a && b>=c){
-    return b;
-  } else {
-    return c;
-  }
+
 }
 
 /**
@@ -122,13 +107,7 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificación con if/else if/else
-    if (edad >= 0 && edad <= 17) {
-      return "menor";
-    } else if (edad >= 18 && edad <= 64) {
-      return "adulto";
-    } else if (edad >= 65) {
-      return "mayor";
-    }
+
 }
 
 // ============================================
@@ -144,44 +123,41 @@ function clasificarEdad(edad) {
  */
 function factorial(n) {
   // TODO: Implementa usando un bucle for
-  for (let i = n - 1; i >= 1; i--) {
-    n = n * i;
-  }
-  return 1;
+
 }
 
 /**
- * Ejercicio 3.2: Suma de nÃºmeros del 1 al n (4 puntos)
- * @param {number} n - NÃºmero lÃ­mite
+ * Ejercicio 3.2: Suma de números del 1 al n (4 puntos)
+ * @param {number} n - Número lí­mite
  * @returns {number} - Suma de 1 + 2 + 3 + ... + n
  */
 function sumaHastaN(n) {
-  // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+  // TODO: Usa un bucle para sumar todos los números desde 1 hasta n
+
 }
 
 /**
  * Ejercicio 3.3: Tabla de multiplicar (5 puntos)
- * @param {number} numero - NÃºmero para generar su tabla
+ * @param {number} numero - Número para generar su tabla
  * @returns {Array} - Array con los resultados de numero x 1 hasta numero x 10
  * Ejemplo: tablaMultiplicar(3) debe retornar [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
  */
 function tablaMultiplicar(numero) {
   // TODO: Genera un array con la tabla de multiplicar
-  const tabla = [];
-  return tabla;
+
+
 }
 
+
 /**
- * Ejercicio 3.4: NÃºmeros pares hasta n (6 puntos)
+ * Ejercicio 3.4: Números pares hasta n (6 puntos)
  * @param {number} n - NÃºmero lÃ­mite
  * @returns {Array} - Array con todos los nÃºmeros pares desde 2 hasta n
  * Ejemplo: numerosPares(10) debe retornar [2, 4, 6, 8, 10]
  */
 function numerosPares(n) {
   // TODO: Crea un array con todos los nÃºmeros pares hasta n
-  const pares = [];
-  return pares;
+
 }
 
 // ============================================
