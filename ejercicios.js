@@ -217,14 +217,14 @@ function promedioArray(numeros) {
 }
 
 /**
- * Ejercicio 4.3: Encontrar el mÃ¡ximo (6 puntos)
- * @param {Array<number>} numeros - Array de nÃºmeros
- * @returns {number} - El nÃºmero mÃ¡s grande del array
+ * Ejercicio 4.3: Encontrar el máximo (6 puntos)
+ * @param {Array<number>} numeros - Array de números
+ * @returns {number} - El número más grande del array
  */
 function encontrarMaximo(numeros) {
   // TODO: Encuentra y retorna el nÃºmero mÃ¡s grande
   // Pista: Puedes usar Math.max(...numeros) o hacerlo con un bucle
-  return 0;
+  return Math.max(...numeros);
 }
 
 /**
