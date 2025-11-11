@@ -338,7 +338,17 @@ function obtenerColumna(matriz, indiceColumna) {
  */
 function transponer(matriz) {
   // TODO: Crea la matriz transpuesta
+  const filas = matriz.length;
+  const columnas = matriz[0].length;
   const transpuesta = [];
+
+  for(let j = 0; j < columnas; j++) {
+    const nuevaFila = []
+    for(let i = 0; i < filas; i++) {
+      nuevaFila.push(matriz[i][j]);
+    }
+    transpuesta.push(nuevaFila);
+  }
   return transpuesta;
 }
 
