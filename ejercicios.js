@@ -179,7 +179,7 @@ function tablaMultiplicar(numero) {
  * Ejemplo: numerosPares(10) debe retornar [2, 4, 6, 8, 10]
  */
 function numerosPares(n) {
-  // TODO: Crea un array con todos los nÃºmeros pares hasta n
+  // TODO: Crea un array con todos los números pares hasta n
   const pares = []
   for(let i = 2; i <= n; i += 2) {
     pares.push(i);
@@ -188,17 +188,21 @@ function numerosPares(n) {
 }
 
 // ============================================
-// SECCIÃ“N 4: ARRAYS (25 puntos)
+// SECCIÓN 4: ARRAYS (25 puntos)
 // ============================================
 
 /**
  * Ejercicio 4.1: Suma de elementos de un array (4 puntos)
- * @param {Array<number>} numeros - Array de nÃºmeros
+ * @param {Array<number>} numeros - Array de números
  * @returns {number} - Suma de todos los elementos
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+  let suma = 0;
+  for(const n of numeros) {
+    suma += n;
+  }
+  return suma;
 }
 
 /**
