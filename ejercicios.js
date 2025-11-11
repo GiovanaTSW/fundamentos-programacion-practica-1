@@ -101,8 +101,8 @@ function evaluarNota(nota) {
  * @returns {number} - El número mayor
  */
 function mayorDeTres(a, b, c) {
-  // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-
+  // TODO: Encuentra y retorna el mayor de los tres números
+  return Math.max(a, b, c);
 }
 
 /**
