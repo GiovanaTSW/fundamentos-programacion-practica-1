@@ -2,7 +2,7 @@
 // Nombre del estudiante: Giovana Ruby Díaz Anduze
 // Fecha: martes 11 de noviembre de 2025
 
-// ============================================
+// ===========================================
 // SECCIÓN 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
 // ============================================
 
